@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Node.js Rest Apis with Express, Sequelize & Cloud MySQL.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "mysql",
+    "rest",
+    "api"
+  ],
+  "author": "Sagar & Matt",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.40.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7",
+    "node-cron": "^3.0.3",
+    "sequelize": "^6.37.3"
+  }
+}

@@ -1,3 +1,4 @@
+
                                                   # Online-Retail-Store-React-Project
 
 Prerequisites before you start to run:
@@ -93,3 +94,36 @@ After the deletion, the selectedReviews array is cleared and the dialog box is c
 
 
 Reference: [1] “Conent of About Page”, Harvard Health Publishing, https://www.health.harvard.edu/blog/phytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501 (accessed April. 8, 2024).
+
+
+**INSTRUCTIONS:**
+
+\backend\src\database\config.js
+
+to cloud mysql 
+
+module.exports = {
+  HOST: "localhost",
+  USER: "root",
+  PASSWORD: "1234",
+  DB: "SOIL_DATABASE_1",
+  DIALECT: 'mysql',
+};
+
+if you want to run projects do these steps:
+	
+	install node js
+	then navigate your project directories 
+		then install node_modules seperately 
+			using "npm install"
+
+	replace your credentientianls and create Database manualy in cloud mysql.
+
+	then run 
+
+		backend project : "npm start" 
+
+		front end project : "npm start"
+
+		admin front end : "npm run dev"
+
